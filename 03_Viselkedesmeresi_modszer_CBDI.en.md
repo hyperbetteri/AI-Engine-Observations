@@ -91,7 +91,7 @@ If, of two engines, one is mainly in an evaluating role and the other mainly in 
 - the same task for both engines;
 - the same or an equivalent situation;
 - the same evaluation criteria;
-- the evaluation should not be the free judgement of the other engine, but a predefined, third-party set of criteria;
+- the evaluation should not be the free judgement of the other engine, but a predefined, separate third set of criteria;
 - platform, engine, role and situation are to be handled as separate variables.
 
 ## Rules of measurement

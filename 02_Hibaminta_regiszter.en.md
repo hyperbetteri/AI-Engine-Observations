@@ -8,7 +8,7 @@ Author: Almási Andor · Base version: v0.2.1 (23 August 2026) · Public version
 
 > **Publication note.** The register grew out of real working sessions with engines from two different vendors, and the two engines checked each other (cross-validation). The public version contains the failure patterns, the required behaviour and the check questions. People, recipients and internal references have been left out of the case descriptions.
 
-> **Translator's note.** The pattern IDs keep their original form: *HM* stands for the Hungarian *hibaminta* ("failure pattern"). Each check question is followed by its Hungarian original, because the register is meant to be fed to engines verbatim.
+> **Translator's note.** The pattern IDs keep their original form: *HM* stands for the Hungarian *hibaminta* ("failure pattern"). Each check question is followed by its Hungarian original for reference.
 
 ## Why is such a register needed?
 
@@ -95,7 +95,7 @@ Engine failures are not random. The same patterns come up again and again, and t
 
 | Pattern | What happens to the evidence? |
 |---|---|
-| HM-01 | There is no source, and nobody searched for one. It downgrades because of the absence. |
+| HM-01 | There is no source, and we did not search for one. It downgrades because of the absence. |
 | HM-05 | There is no source, yet a claim is made. Filling in. |
 | HM-06 | There is a source, but the claim reaches beyond it. Scope error. |
 
