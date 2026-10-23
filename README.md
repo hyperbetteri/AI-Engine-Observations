@@ -33,6 +33,8 @@ A dokumentumok az elveket, a problémafelvetést és az eredményeket mutatják 
 
 - Portfólió és validációs bizonyítékok: [AI-Workflow-Validation-Portfolio](https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio)
 - Mérnöki esettanulmányok: [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies)
+- Jogi AI-keretrendszer (bemutató): [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview)
+- Holdi újrahasznosítási koncepciótanulmányok: [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab)
 
 ---
 
@@ -45,7 +47,7 @@ This repository collects observations from several years of intensive, day-to-da
 - **A behaviour-measurement method (CBDI, working name)** — paired, pre-registered, blinded, repeated measurements to test whether the same engine behaves differently across contexts.
 - **Digital Nanny** — a public concept description of an adaptive, family-controlled learning and safety companion for children.
 
-The documents are in Hungarian. They deliberately omit internal prompts, boot packages, source code, thresholds, concrete test items and personal or project-sensitive data.
+The documents are written in Hungarian; full English translations are available ([README.en.md](README.en.md)). They deliberately omit internal prompts, boot packages, source code, thresholds, concrete test items and personal or project-sensitive data.
 
 ---
 
