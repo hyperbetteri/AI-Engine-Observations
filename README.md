@@ -1,54 +1,39 @@
-**Nyelv:** [Magyar](README.md) | [English](README.en.md)
+**Language / Nyelv:** [English](README.md) · [Magyar](README.hu.md)
 
-# AI-motor megfigyelések / AI Engine Observations
+# AI Engine Observations
 
-**Almási Andor** — hosszú távú, napi szintű munka nagy nyelvi modellekkel („motorokkal”): hogyan viselkednek, hol és hogyan hibáznak, és hogyan lehet ezt tisztességesen megfigyelni és mérni.
+**Almási Andor** — long-term, day-to-day work with large language models ("engines"): how they behave, where and how they fail, and how this can be observed and measured fairly.
 
-> **English summary below.**
+## What is this repository about?
 
-## Miről szól ez a repó?
+This collection is neither code nor a prompt pack. It contains observations, failure patterns and measurement principles that grew out of several years of hands-on work with multiple engines (OpenAI, Anthropic, Google and offline models).
 
-Ez a gyűjtemény nem kód és nem promptcsomag. Megfigyeléseket, hibamintákat és mérési elveket tartalmaz, amelyek több év, több motorral (OpenAI, Anthropic, Google és offline modellek) végzett gyakorlati munkából születtek.
+It centres on three questions:
 
-A középpontban három kérdés áll:
+1. **What should an AI system remember, and what should it not?** — memory hygiene in long-term collaboration.
+2. **What recurring failure patterns do the engines show?** — documented cases, each with a check question.
+3. **How can the behaviour of engines be measured fairly?** — pre-registration, blinding, repetition.
 
-1. **Mit jegyezzen meg egy AI-rendszer, és mit ne?** — memóriahigiénia hosszú távú együttműködésben.
-2. **Milyen visszatérő hibamintákat mutatnak a motorok?** — dokumentált esetek, ellenőrző kérdésekkel.
-3. **Hogyan lehet a motorok viselkedését tisztességesen mérni?** — előregisztráció, vakság, ismétlés.
+## Contents
 
-## Tartalom
-
-| # | Dokumentum | Röviden |
+| # | Document | In brief |
 |---|---|---|
-| 01 | [AI-memóriahigiénia és többmotoros kontroll](01_AI_memoriahigienia_es_tobbmotoros_kontroll.md) | A memória működési iránytű, nem tudástár. Rétegzett modell hosszú távú ember–AI munkához. |
-| 02 | [Hibaminta-regiszter](02_Hibaminta_regiszter.md) | Hat dokumentált hibaminta (pl. keresés nélküli lefokozás, bizonyíték nélküli elmozdulás, konfabuláció), mindegyikhez ellenőrző kérdéssel. |
-| 03 | [Viselkedésmérési módszer (CBDI)](03_Viselkedesmeresi_modszer_CBDI.md) | Hogyan mérhető, hogy ugyanaz a motor más-más helyzetben másként viselkedik-e — és mi számít valódi eredménynek. |
-| 04 | [Digitális Dajka – projektismertető](04_Digitalis_Dajka_projektismerteto.md) | Koncepció: a gyermek telefonjából passzív figyelemlekötő helyett adaptív tanulási és biztonsági segítő. |
+| 01 | [AI memory hygiene and multi-engine control](01_AI_memoriahigienia_es_tobbmotoros_kontroll.en.md) | Memory is an operating compass, not a knowledge base. A layered model for long-term human–AI work. |
+| 02 | [Failure-pattern register](02_Hibaminta_regiszter.en.md) | Six documented failure patterns (e.g. downgrading without searching, drift without evidence, confabulation), each with a check question. |
+| 03 | [Behaviour-measurement method (CBDI)](03_Viselkedesmeresi_modszer_CBDI.en.md) | How to measure whether the same engine behaves differently in different situations — and what counts as a real result. |
+| 04 | [Digital Nanny – project overview](04_Digitalis_Dajka_projektismerteto.en.md) | Concept: turning a child's phone from a passive attention-holder into an adaptive learning and safety companion. |
 
-## Mi nincs benne — szándékosan
+## What is not included — on purpose
 
-A dokumentumok az elveket, a problémafelvetést és az eredményeket mutatják be. **Nem** tartalmaznak végrehajtható belső promptokat, indítócsomagokat, forráskódot, küszöbértékeket, konkrét tesztfeladatokat, személyes adatokat vagy projektérzékeny részleteket. Ennek oka nem titkolózás, hanem kockázatkezelés: a részletes operatív anyag kontextus nélkül félreérthető vagy hibásan újrahasznosítható.
+The documents present the principles, the problem statement and the results. They do **not** contain executable internal prompts, boot packages, source code, thresholds, concrete test items, personal data or project-sensitive details. The reason is not secrecy but risk management: detailed operational material can be misunderstood or wrongly reused without its context.
 
-## Kapcsolódó
+## Related
 
-- Portfólió és validációs bizonyítékok: [AI-Workflow-Validation-Portfolio](https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio)
-- Mérnöki esettanulmányok: [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies)
-- Jogi AI-keretrendszer (bemutató): [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview)
-- Holdi újrahasznosítási koncepciótanulmányok: [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab)
-
----
-
-## English summary
-
-This repository collects observations from several years of intensive, day-to-day work with large language models ("engines") from multiple vendors and offline models. It is not code and not a prompt pack. It documents:
-
-- **AI memory hygiene** — why long-term AI memory should be a short operating compass, not a knowledge base, and how a layered model (core, deep-work starter, master file, archive, quarantine, control engine) keeps long collaborations stable.
-- **A failure-pattern register** — six documented LLM failure patterns (e.g. downgrading a claim without searching, drifting toward the user's position without new evidence, confabulation, overstepping the scope of a cited source), each with a self-check question.
-- **A behaviour-measurement method (CBDI, working name)** — paired, pre-registered, blinded, repeated measurements to test whether the same engine behaves differently across contexts.
-- **Digital Nanny** — a public concept description of an adaptive, family-controlled learning and safety companion for children.
-
-The documents are written in Hungarian; full English translations are available ([README.en.md](README.en.md)). They deliberately omit internal prompts, boot packages, source code, thresholds, concrete test items and personal or project-sensitive data.
+- Portfolio and validation evidence: [AI-Workflow-Validation-Portfolio](https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio)
+- Engineering case studies: [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies)
+- Legal AI framework (overview): [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview)
+- Lunar recycling concept studies: [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab)
 
 ---
 
-© 2026 Almási Andor. Minden jog fenntartva. Forrásmegjelöléssel szabadon idézhető. / All rights reserved. Quotation with attribution is welcome.
+© 2026 Almási Andor. All rights reserved. Quotation with attribution is welcome.

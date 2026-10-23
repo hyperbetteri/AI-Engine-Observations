@@ -1,4 +1,4 @@
-**Language:** [Magyar](01_AI_memoriahigienia_es_tobbmotoros_kontroll.md) | [English](01_AI_memoriahigienia_es_tobbmotoros_kontroll.en.md)
+**Language / Nyelv:** [English](01_AI_memoriahigienia_es_tobbmotoros_kontroll.en.md) · [Magyar](01_AI_memoriahigienia_es_tobbmotoros_kontroll.md)
 
 # AI Memory Hygiene and Multi-Engine Control
 
