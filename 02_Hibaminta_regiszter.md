@@ -1,3 +1,5 @@
+**Nyelv:** [Magyar](02_Hibaminta_regiszter.md) | [English](02_Hibaminta_regiszter.en.md)
+
 # Hibaminta-regiszter
 
 **Hat dokumentált hibaminta nagy nyelvi modellek („motorok”) munkájában**

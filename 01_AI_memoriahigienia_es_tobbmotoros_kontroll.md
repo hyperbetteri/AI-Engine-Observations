@@ -1,3 +1,5 @@
+**Nyelv:** [Magyar](01_AI_memoriahigienia_es_tobbmotoros_kontroll.md) | [English](01_AI_memoriahigienia_es_tobbmotoros_kontroll.en.md)
+
 # AI-memóriahigiénia és többmotoros kontroll
 
 **Publikus esettanulmány hosszú távú ember–AI munkafolyamat stabilizálásáról**

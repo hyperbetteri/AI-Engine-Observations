@@ -1,3 +1,5 @@
+**Nyelv:** [Magyar](04_Digitalis_Dajka_projektismerteto.md) | [English](04_Digitalis_Dajka_projektismerteto.en.md)
+
 # Digitális Dajka / Digitális Cumi / Digitális Babysitter
 
 **Publikus projektismertető**

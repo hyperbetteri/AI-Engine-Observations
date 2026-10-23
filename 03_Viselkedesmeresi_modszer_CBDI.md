@@ -1,3 +1,5 @@
+**Nyelv:** [Magyar](03_Viselkedesmeresi_modszer_CBDI.md) | [English](03_Viselkedesmeresi_modszer_CBDI.en.md)
+
 # Viselkedésmérési módszer (CBDI)
 
 **Hogyan mérhető tisztességesen, hogy ugyanaz a motor más helyzetben másként viselkedik-e?**

@@ -1,3 +1,5 @@
+**Nyelv:** [Magyar](README.md) | [English](README.en.md)
+
 # AI-motor megfigyelések / AI Engine Observations
 
 **Almási Andor** — hosszú távú, napi szintű munka nagy nyelvi modellekkel („motorokkal”): hogyan viselkednek, hol és hogyan hibáznak, és hogyan lehet ezt tisztességesen megfigyelni és mérni.
