@@ -1,4 +1,4 @@
-**Nyelv:** [Magyar](04_Digitalis_Dajka_projektismerteto.md) | [English](04_Digitalis_Dajka_projektismerteto.en.md)
+**Language / Nyelv:** [English](04_Digitalis_Dajka_projektismerteto.en.md) · [Magyar](04_Digitalis_Dajka_projektismerteto.md)
 
 # Digitális Dajka / Digitális Cumi / Digitális Babysitter
 
@@ -87,6 +87,18 @@ Az alapgondolat röviden: a gyermek által már használt digitális eszközből
 ## 12. Jelenlegi fejlesztési állapot
 
 A koncepció rendszermagja és a szenzorfúziós/3D környezeti architektúra első szerkezeti alapváza elkészült, és külön ellenőrzési körökön ment át. A részletes 3D világmodell, a viselhető szenzormodul, a fix térérzékelő hálózat, a valós idejű veszély- és állapotbecslés, az AI-beavatkozási logika és az intelligens otthon integráció további fejlesztési munka tárgya.
+
+## 13. Adatvédelem és gyermekbiztonság
+
+A rendszer gyermekekről gyűjtene adatot, köztük kamera-, hang-, érintési és mozgásadatot, valamint ezekből levont állapotbecslést. Ezért az adatvédelem nem kiegészítő funkció, hanem a tervezés kiinduló feltétele. A koncepció az alábbi elveket rögzíti. Ezek követelmények, nem már megvalósított funkciók.
+
+- **Jogi keret:** az uniós általános adatvédelmi rendelet (GDPR), a gyermekek adataira vonatkozó szigorúbb szabályok és az uniós MI-rendelet (AI Act) követelményei. Bármilyen megvalósítás előtt adatvédelmi hatásvizsgálat szükséges.
+- **Szülői hozzájárulás és kontroll:** adatgyűjtés csak a szülő vagy gyám kifejezett, bármikor visszavonható hozzájárulásával. A szülő látja, mit tárol a rendszer, és törölheti.
+- **Adattakarékosság:** csak a működéshez szükséges adat keletkezik; a nyers kép- és hangfelvétel lehetőség szerint nem tárolódik.
+- **Helyi feldolgozás elsőbbsége:** amit lehet, az eszközön vagy a család saját hálózatán belül kell feldolgozni. Felhőbe csak szükséges, titkosított és minimalizált adat kerülhet.
+- **Nincs másodlagos felhasználás:** a gyermek adatai nem használhatók reklámra vagy más célú profilalkotásra, és nem adhatók tovább.
+- **Az állapotbecslés korlátai:** az érzelmi vagy fizikai állapot becslése bizonytalan, nem minősítés és nem diagnózis, emberi felülvizsgálat nélkül nem alapozhat meg döntést.
+- **Megőrzés és törlés:** meghatározott megőrzési idő; a gyermekmodell és a hozzá tartozó adatok teljes egészében törölhetők.
 
 ---
 

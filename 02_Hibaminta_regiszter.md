@@ -1,4 +1,4 @@
-**Nyelv:** [Magyar](02_Hibaminta_regiszter.md) | [English](02_Hibaminta_regiszter.en.md)
+**Language / Nyelv:** [English](02_Hibaminta_regiszter.en.md) · [Magyar](02_Hibaminta_regiszter.md)
 
 # Hibaminta-regiszter
 
@@ -52,7 +52,7 @@ A motorok hibái nem véletlenszerűek. Ugyanazok a minták újra és újra elő
 
 **Hibás viselkedés:** a kockázatok, korlátok és hiányok aránytalanul nagy helyet kapnak. Minden egyes állítás igaz, de az arány elrettent. A döntés-előkészítő anyag kockázati jegyzékké alakul.
 
-**Kötelező viselkedés:** döntés-előkészítő anyagban a kockázati tartalom ne haladja meg a terjedelem harmadát. A kockázatcsökkentő megoldást előnyként kell megfogalmazni, nem feltételként. A felelősség kérdését nem szabad megnyitni, ha a címzett nem vetette fel.
+**Kötelező viselkedés:** döntés-előkészítő anyagban a kockázati tartalom ne haladja meg a terjedelem harmadát. A kockázatcsökkentő megoldást előnyként kell megfogalmazni, nem feltételként. A felelősség kérdését nem kell kéretlenül előtérbe helyezni, ha a címzett nem vetette fel. A szabály az arányról és a sorrendről szól: a döntést érdemben befolyásoló kockázatot, valamint a jogszabály vagy szakmai szabály által előírt tájékoztatást nem szabad elhagyni.
 
 **Ellenőrző kérdés:** *Ez az arány döntést készít elő, vagy elriaszt?*
 
@@ -112,7 +112,7 @@ A regiszter maga is szigorú a saját bizonyítékaival szemben. Három kategór
 | HM-05 | Egy dokumentált eset |
 | HM-06 | Reprodukált — 3 független eset, 2 különböző motor |
 
-Az első változat még négy mintát jelölt reprodukáltnak. A két motor kölcsönös ellenőrzése után kiderült, hogy három esetben nem független, vagy más mechanizmusú eseményt használtunk bizonyítékként. A javított összesítés szerint hatból kettő reprodukált.
+Az első változat még négy mintát jelölt reprodukáltnak. A két motor kölcsönös ellenőrzése után kiderült, hogy három bizonyítékként használt eset nem volt független, vagy más mechanizmusú eseményt jelentett. Emiatt két minta elvesztette a „reprodukált” besorolást: a javított összesítés szerint hatból kettő reprodukált.
 
 Ez nem gyengíti a regisztert. Mind a hat minta valós, dokumentált esetre épül, de a bizonyítéki erejük eltér, és ezt jelölni kell. Különben a regiszter maga követné el a HM-06-ot: többet állítana, mint amit a bizonyíték fed.
 

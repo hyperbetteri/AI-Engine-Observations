@@ -1,4 +1,4 @@
-**Language:** [Magyar](04_Digitalis_Dajka_projektismerteto.md) | [English](04_Digitalis_Dajka_projektismerteto.en.md)
+**Language / Nyelv:** [English](04_Digitalis_Dajka_projektismerteto.en.md) · [Magyar](04_Digitalis_Dajka_projektismerteto.md)
 
 # Digital Nanny / Digital Pacifier / Digital Babysitter
 
@@ -89,6 +89,18 @@ The core idea in brief: to create, from the digital device a child already uses,
 ## 12. Current state of development
 
 The system core of the concept and the first structural framework of the sensor-fusion/3D environment architecture have been completed and have gone through separate review rounds. The detailed 3D world model, the wearable sensor module, the fixed spatial sensor network, real-time danger and state estimation, the AI intervention logic and smart-home integration are the subject of further development work.
+
+## 13. Data protection and child safety
+
+The system would collect data about children, including camera, audio, touch and motion data, as well as state estimates derived from them. Data protection is therefore not an add-on feature but a starting condition of the design. The concept sets out the following principles. They are requirements, not features that have already been implemented.
+
+- **Legal framework:** the EU General Data Protection Regulation (GDPR), the stricter rules that apply to children's data, and the requirements of the EU Artificial Intelligence Act (AI Act). A data protection impact assessment is required before any implementation.
+- **Parental consent and control:** data is collected only with the explicit consent of a parent or guardian, which can be withdrawn at any time. The parent can see what the system stores and can delete it.
+- **Data minimisation:** only data needed for operation is created; raw video and audio recordings are, wherever possible, not stored.
+- **Local processing first:** whatever can be processed on the device or within the family's own network should be processed there. Only necessary, encrypted and minimised data may go to the cloud.
+- **No secondary use:** the child's data may not be used for advertising or for profiling for other purposes, and may not be passed on.
+- **Limits of state estimation:** estimates of emotional or physical state are uncertain, are neither a rating nor a diagnosis, and cannot be the basis of a decision without human review.
+- **Retention and deletion:** a defined retention period; the child model and its associated data can be deleted in full.
 
 ---
 

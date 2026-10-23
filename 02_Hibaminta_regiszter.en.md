@@ -1,4 +1,4 @@
-**Language:** [Magyar](02_Hibaminta_regiszter.md) | [English](02_Hibaminta_regiszter.en.md)
+**Language / Nyelv:** [English](02_Hibaminta_regiszter.en.md) · [Magyar](02_Hibaminta_regiszter.md)
 
 # Failure-Pattern Register
 
@@ -57,7 +57,7 @@ Engine failures are not random. The same patterns come up again and again, and t
 
 **Faulty behaviour:** risks, limitations and gaps take up a disproportionately large share. Each individual statement is true, but the proportion is off-putting. The decision-support material turns into a risk register.
 
-**Required behaviour:** in decision-support material, risk content should not exceed one third of the length. A risk-reducing solution must be framed as a benefit, not as a condition. The question of liability must not be opened if the recipient has not raised it.
+**Required behaviour:** in decision-support material, risk content should not exceed one third of the length. A risk-reducing solution must be framed as a benefit, not as a condition. The question of liability should not be brought to the foreground unprompted if the recipient has not raised it. The rule concerns proportion and order: a risk that materially affects the decision, and any disclosure required by law or professional rules, must never be omitted.
 
 **Check question:** *Does this proportion prepare a decision, or does it scare the reader off?*
 (Hungarian original: *Ez az arány döntést készít elő, vagy elriaszt?*)
@@ -120,7 +120,7 @@ The register itself is strict about its own evidence. It uses three categories:
 | HM-05 | One documented case |
 | HM-06 | Reproduced — 3 independent cases, 2 different engines |
 
-The first version still marked four patterns as reproduced. After the two engines checked each other, it turned out that in three cases we had used as evidence an event that was not independent or that had a different mechanism. According to the corrected tally, two out of six are reproduced.
+The first version still marked four patterns as reproduced. After the two engines checked each other, it turned out that three of the cases used as evidence were not independent or involved a different mechanism. As a result, two patterns lost their "reproduced" status: according to the corrected tally, two out of six are reproduced.
 
 This does not weaken the register. All six patterns are based on real, documented cases, but their evidential strength differs, and this must be marked. Otherwise the register itself would commit HM-06: it would claim more than the evidence covers.
 

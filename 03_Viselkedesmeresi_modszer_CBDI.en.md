@@ -1,4 +1,4 @@
-**Language:** [Magyar](03_Viselkedesmeresi_modszer_CBDI.md) | [English](03_Viselkedesmeresi_modszer_CBDI.en.md)
+**Language / Nyelv:** [English](03_Viselkedesmeresi_modszer_CBDI.en.md) · [Magyar](03_Viselkedesmeresi_modszer_CBDI.md)
 
 # Behaviour-Measurement Method (CBDI)
 
