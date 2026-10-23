@@ -31,6 +31,8 @@ The documents present the principles, the problem statement and the results. The
 
 - Portfolio and validation evidence: [AI-Workflow-Validation-Portfolio](https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio)
 - Engineering case studies: [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies)
+- Legal AI framework (overview): [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview)
+- Lunar recycling concept studies: [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab)
 
 ---
 
